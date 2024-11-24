@@ -1,0 +1,33 @@
+﻿.completionList
+{
+	border: solid 1px Gray;
+	margin: 0px;
+	padding: 5px;
+	height: 450px;/*auto;*/
+	overflow: auto;
+	background-color: #FFFFFF;
+    font-size:12pt;
+    
+}
+.listItem
+{
+	color: #191919;
+}
+.itemHighlighted {
+    font-weight: bold;
+    background-color: #D06C0C;
+    color: #ffffff;
+    font-size:12pt;
+}
+.ajax__calendar .ajax__calendar_container {
+    border: 1px solid #646464;
+    background-color: #ffffff;
+    color: #000000;
+    z-index: 999;
+}
+.ajax__calendar .ajax__calendar_container {
+    border: 1px solid #646464;
+    background-color: #ffffff;
+    color: #000000;
+    z-index: 1;
+}

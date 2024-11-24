@@ -1,0 +1,35 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[UserInfo](
+	[User_ID] [bigint] NULL,
+	[User_Name] [varchar](100) NULL,
+	[Password] [varchar](500) NULL,
+	[Companyname] [varchar](100) NULL,
+	[Account_No] [varchar](500) NULL,
+	[Email] [varchar](500) NULL,
+	[MobileNo] [varchar](50) NULL,
+	[PhoneNo] [varchar](50) NULL,
+	[Address] [varchar](500) NULL,
+	[GSTin_No] [varchar](50) NULL,
+	[logo] [varchar](500) NULL,
+	[Date_Of_Creation] [varchar](50) NULL,
+	[Status] [varchar](50) NULL,
+	[Role] [varchar](50) NULL,
+	[city] [varchar](100) NULL,
+	[State_Code] [varchar](50) NULL,
+	[State_Name] [varchar](50) NULL,
+	[Center_ID] [bigint] NULL,
+	[OnlineStatus] [varchar](50) NULL,
+	[Offline_Status] [varchar](50) NULL,
+	[Outstanding_Amt] [decimal](18, 2) NULL,
+	[Login_Type] [varchar](50) NULL
+) ON [PRIMARY]
+GO
+SET ANSI_PADDING OFF
+GO
+INSERT [dbo].[UserInfo] ([User_ID], [User_Name], [Password], [Companyname], [Account_No], [Email], [MobileNo], [PhoneNo], [Address], [GSTin_No], [logo], [Date_Of_Creation], [Status], [Role], [city], [State_Code], [State_Name], [Center_ID], [OnlineStatus], [Offline_Status], [Outstanding_Amt], [Login_Type]) VALUES (2, N'21042000', N'210420', N'Shubham Wadhwani', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'Yes', N'Operator', NULL, N'23', N'Madhya Pradesh', 1, N'Offline', N'Offline', NULL, NULL)
+INSERT [dbo].[UserInfo] ([User_ID], [User_Name], [Password], [Companyname], [Account_No], [Email], [MobileNo], [PhoneNo], [Address], [GSTin_No], [logo], [Date_Of_Creation], [Status], [Role], [city], [State_Code], [State_Name], [Center_ID], [OnlineStatus], [Offline_Status], [Outstanding_Amt], [Login_Type]) VALUES (1, N'dvadmin', N'dvadmin', N'LAVYANSH ', N'', N'NA', N'', N'0000000', N'Azad Market, Bhopal', N'NA', N'', NULL, N'Yes', N'Admin', NULL, N'23', N'Madhya Pradesh', 1, NULL, NULL, CAST(0.00 AS Decimal(18, 2)), N'Admin')
